@@ -22,11 +22,14 @@ Distributed log monitoring system that aggregates logs from multiple services an
 ## Project Structure
 
 distributed-log-monitor/
-├── agent/agent.py # Log agent
-├── server/server.py # Central server
-├── logs/test.log # Example log
-├── log_generator.py # Log generator
-└── README.md
+├── agent/
+│   └── agent.py          # Log agent script
+├── server/
+│   └── server.py         # Central monitoring server
+├── logs/
+│   └── test.log          # Example log file
+├── log_generator.py      # Optional script to simulate log generation
+└── README.md             # Project documentation
 
 ---
 
