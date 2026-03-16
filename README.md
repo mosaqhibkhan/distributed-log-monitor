@@ -3,7 +3,7 @@ Distributed log monitoring system that aggregates logs from multiple services an
 
 ---
 
-# Features
+## Features
 - Real-time log streaming
 - Parses `INFO`, `WARNING`, `ERROR`
 - Alerts on high error frequency
@@ -12,14 +12,14 @@ Distributed log monitoring system that aggregates logs from multiple services an
 
 ---
 
-# Tech Stack
+## Tech Stack
 - Python 3
 - TCP Sockets
 - Multithreading
 
 ---
 
-# Project Structure
+## Project Structure
 
 distributed-log-monitor/
 ├── agent/agent.py # Log agent
@@ -30,6 +30,6 @@ distributed-log-monitor/
 
 ---
 
-# Author
+## Author
 
 Mohammed Saqhib Uddin Khan
